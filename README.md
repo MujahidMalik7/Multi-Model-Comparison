@@ -5,7 +5,7 @@ A Python command-line tool that sends the same prompt to **Claude Haiku** and **
 ## Features
 - Runs both models in parallel using `async/await`
 - Displays response time and token usage for each model
-- Supports custom temperature settings
+- Supports custom temperature settings using `--temperature` e.g `"prompt" --temperature=0.3`
 - Forces structured JSON output with `--json` flag
 - Saves all interactions to a local log file with timestamps
 
